@@ -1,0 +1,113 @@
+/* Navbar Settings Starts Here */
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.logo-image{
+    width: 85px;
+    height: 40px;
+}
+
+/* Javascript Actions */
+.navbar.sticky{
+    background-color: rgb(201, 201, 201);
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.dropdown-menu{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #367E18;
+}
+
+.dropdown-position{
+    position: relative;
+    left: 95px;
+}
+
+.dropdown-position2{
+    position: relative;
+    left: 86px;
+}
+
+.nav-icons{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* <!-- First Section Starts Here --> */
+#first-section{
+    background-color: #B7C4CF;
+}
+
+.search-btn{
+    width: 300px;
+    border-radius: 30px;
+    border: 0;
+    height: 30px;
+}
+.first-container{
+    padding-top: 20px;
+    text-align: end;
+}
+table td{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+/* <!-- Second Section Starts Here --> */
+#second-section{
+    background-color: #B7C4CF;
+    height: 900px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row-1{
+    background-color: white; 
+    justify-content: center; 
+    height: 600px;
+    border-radius: 10px;
+}
+.first-col{
+    width: 900px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 5px;
+    float: left
+}
+.second-col{
+    width: 550px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-link:hover{
+    content: "a";
+    background-color: black;
+    transition: all 2s ease;
+    object-fit: cover;
+}
+
